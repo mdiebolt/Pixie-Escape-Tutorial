@@ -1,0 +1,23 @@
+Platform Tutorial 1
+===================
+
+This game is tutorial to teach keyboard input.
+
+The source has been annotated to teach you the basics of using PixieEngine.
+
+Directory Overview
+------------------
+lib           - Compiled libraries that the game includes. You won't need to touch these.
+src           - The code for all the objects in the game
+Documentation - Detailed explanation of methods provided by the libraries. Contains tons of code samples. 
+README        - This file
+pixie         - Configuration file to specify library source location and application size.
+
+Architecture Overview
+---------------------
+Engine     - Manages all the game objects and running the update and draw steps.
+GameObject - Represents something in the game. In our case this represents that red square.
+Square     - The guy we are learning to control.
+
+This main file sets up the engine and configures all the initial objects.
+
